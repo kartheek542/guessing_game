@@ -9,7 +9,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="main.css"/>
-        <script src="main.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -19,7 +18,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <button id="ebutton"class="btn mybtn nav-link" href="#">EASY</button>
+                    <button id="ebutton"class="active btn mybtn nav-link" href="#">EASY</button>
                     <button id="hbutton"class="btn mybtn nav-link" href="#">HARD</button>
                 </div>
             </div>
@@ -36,36 +35,13 @@
             <div class="options">
                 <p>your options are : </p>
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
-                        <div class="col-2">
-                            <div class="color-block"></div>
-                            <p class="opt-ans">RGB(124, 123, 543)</p>
-                        </div>
+                    <div id="colorsRow" class="row">
                     </div>
                 </div>
             </div>
             <div class="output">
             </div>
         </div>
+        <script src="main.js"></script>
     </body>
 </html>
