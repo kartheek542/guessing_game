@@ -14,3 +14,9 @@ h1 {
     text-align: right;
     font-size: 20px;
 }
+.color-block {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 10px;
+}
